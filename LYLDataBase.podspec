@@ -86,10 +86,12 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files = "LYLDataBase/LYLDataBase", "LYLDataBase/LYLDataBase/**/*.{h,m}"
-  s.exclude_files = 'LYLDataBase/LYLDataBaseManager.m'
+  s.source_files = 'LYLDataBase/LYLDataBaseManager.{h,m}'
+  s.public_header_files = 'LYLDataBase/LYLDataBaseManager.h'
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.source_files = "LYLDataBase/LYLDataBaseManager.{h,m}"
+  # s.exclude_files = 'Pod/LYLDataBase/LYLDataBaseManager.m'
+
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,14 +100,11 @@ Pod::Spec.new do |s|
   #  target bundle with a build phase script. Anything else will be cleaned.
   #  You can preserve files from being cleaned, please don't preserve
   #  non-essential files like tests, examples and documentation.
-  #
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-
-
+  # s.preserve_paths = "FilesToSave", "M
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  Link your library with frameworks, or libraries. Libraries do not include
@@ -114,7 +113,7 @@ Pod::Spec.new do |s|
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
-
+  s.library = 'sqlite3'
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
