@@ -86,8 +86,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  ss.source_files = 'LYLDataBase/LYLDataBase/LYL*.{h,m}'
-  ss.exclude_files = 'LYLDataBase/LYLDataBaseManager.m'
+  s.source_files = "LYLDataBase/LYLDataBase", "LYLDataBase/LYLDataBase/**/*.{h,m}"
+  s.exclude_files = 'LYLDataBase/LYLDataBaseManager.m'
 
   # s.public_header_files = "Classes/**/*.h"
 
