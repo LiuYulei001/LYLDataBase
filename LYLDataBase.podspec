@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LYLDataBase"
   s.version      = "1.0.2"
-  s.summary      = "本地化数据"
+  s.summary      = "本地化存储"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,7 +38,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  #s.license      = "MIT (example)"
+   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -51,7 +52,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "LYL" => "445229678@qq.com" }
+  s.author             = { "445229678@qq.com" => "445229678@qq.com" }
+  # Or just: s.author    = "liuyulei@yingu.com"
+  # s.authors            = { "liuyulei@yingu.com" => "liuyulei@yingu.com" }
+  # s.social_media_url   = "http://twitter.com/liuyulei@yingu.com"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -60,7 +64,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.1"
+   s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -75,19 +79,21 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/LiuYulei001/LYLDataBase.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/LiuYulei001/LYLDataBase.git", :tag => "{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  CocoaPods is smart about how it includes source code. For source files
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
-  #  For header files it willinclude any header in the folder.
+  #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.public_header_files = "LYLDataBaseManager.h"
+ # s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.exclude_files = "LYLDataBase/LYLDataBase"
 
+  # s.public_header_files = "Classes/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -98,12 +104,11 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-   s.frameworks = 'UIKit','Foundation','libsqlite3.0'
-
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
+
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
