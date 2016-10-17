@@ -15,13 +15,13 @@
 		360F20331DB49C67000DD0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 360F20311DB49C67000DD0A9 /* LaunchScreen.storyboard */; };
 		360F203E1DB49C67000DD0A9 /* LYLDataBaseManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F203D1DB49C67000DD0A9 /* LYLDataBaseManagerTests.m */; };
 		360F20491DB49C67000DD0A9 /* LYLDataBaseManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20481DB49C67000DD0A9 /* LYLDataBaseManagerUITests.m */; };
-		360F20651DB49C79000DD0A9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20581DB49C79000DD0A9 /* FMDatabase.m */; };
-		360F20661DB49C79000DD0A9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F205A1DB49C79000DD0A9 /* FMDatabaseAdditions.m */; };
-		360F20671DB49C79000DD0A9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F205C1DB49C79000DD0A9 /* FMDatabasePool.m */; };
-		360F20681DB49C79000DD0A9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F205E1DB49C79000DD0A9 /* FMDatabaseQueue.m */; };
-		360F20691DB49C79000DD0A9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20611DB49C79000DD0A9 /* FMResultSet.m */; };
-		360F206A1DB49C79000DD0A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360F20621DB49C79000DD0A9 /* Info.plist */; };
-		360F206B1DB49C79000DD0A9 /* LYLDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20641DB49C79000DD0A9 /* LYLDataBaseManager.m */; };
+		360F207B1DB4A045000DD0A9 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F206E1DB4A045000DD0A9 /* FMDatabase.m */; };
+		360F207C1DB4A045000DD0A9 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20701DB4A045000DD0A9 /* FMDatabaseAdditions.m */; };
+		360F207D1DB4A045000DD0A9 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20721DB4A045000DD0A9 /* FMDatabasePool.m */; };
+		360F207E1DB4A045000DD0A9 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20741DB4A045000DD0A9 /* FMDatabaseQueue.m */; };
+		360F207F1DB4A045000DD0A9 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F20771DB4A045000DD0A9 /* FMResultSet.m */; };
+		360F20801DB4A045000DD0A9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360F20781DB4A045000DD0A9 /* Info.plist */; };
+		360F20811DB4A045000DD0A9 /* LYLDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 360F207A1DB4A045000DD0A9 /* LYLDataBaseManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,20 +58,20 @@
 		360F20441DB49C67000DD0A9 /* LYLDataBaseManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYLDataBaseManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		360F20481DB49C67000DD0A9 /* LYLDataBaseManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLDataBaseManagerUITests.m; sourceTree = "<group>"; };
 		360F204A1DB49C67000DD0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		360F20571DB49C79000DD0A9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
-		360F20581DB49C79000DD0A9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
-		360F20591DB49C79000DD0A9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
-		360F205A1DB49C79000DD0A9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
-		360F205B1DB49C79000DD0A9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
-		360F205C1DB49C79000DD0A9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
-		360F205D1DB49C79000DD0A9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
-		360F205E1DB49C79000DD0A9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
-		360F205F1DB49C79000DD0A9 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
-		360F20601DB49C79000DD0A9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
-		360F20611DB49C79000DD0A9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
-		360F20621DB49C79000DD0A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		360F20631DB49C79000DD0A9 /* LYLDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLDataBaseManager.h; sourceTree = "<group>"; };
-		360F20641DB49C79000DD0A9 /* LYLDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLDataBaseManager.m; sourceTree = "<group>"; };
+		360F206D1DB4A045000DD0A9 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		360F206E1DB4A045000DD0A9 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		360F206F1DB4A045000DD0A9 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		360F20701DB4A045000DD0A9 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		360F20711DB4A045000DD0A9 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		360F20721DB4A045000DD0A9 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		360F20731DB4A045000DD0A9 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		360F20741DB4A045000DD0A9 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		360F20751DB4A045000DD0A9 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		360F20761DB4A045000DD0A9 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		360F20771DB4A045000DD0A9 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		360F20781DB4A045000DD0A9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		360F20791DB4A045000DD0A9 /* LYLDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLDataBaseManager.h; sourceTree = "<group>"; };
+		360F207A1DB4A045000DD0A9 /* LYLDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLDataBaseManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +122,7 @@
 		360F20221DB49C67000DD0A9 /* LYLDataBaseManager */ = {
 			isa = PBXGroup;
 			children = (
-				360F20561DB49C79000DD0A9 /* LYLDataBase */,
+				360F206C1DB4A045000DD0A9 /* LYLDataBase */,
 				360F20261DB49C67000DD0A9 /* AppDelegate.h */,
 				360F20271DB49C67000DD0A9 /* AppDelegate.m */,
 				360F20291DB49C67000DD0A9 /* ViewController.h */,
@@ -162,23 +162,23 @@
 			path = LYLDataBaseManagerUITests;
 			sourceTree = "<group>";
 		};
-		360F20561DB49C79000DD0A9 /* LYLDataBase */ = {
+		360F206C1DB4A045000DD0A9 /* LYLDataBase */ = {
 			isa = PBXGroup;
 			children = (
-				360F20571DB49C79000DD0A9 /* FMDatabase.h */,
-				360F20581DB49C79000DD0A9 /* FMDatabase.m */,
-				360F20591DB49C79000DD0A9 /* FMDatabaseAdditions.h */,
-				360F205A1DB49C79000DD0A9 /* FMDatabaseAdditions.m */,
-				360F205B1DB49C79000DD0A9 /* FMDatabasePool.h */,
-				360F205C1DB49C79000DD0A9 /* FMDatabasePool.m */,
-				360F205D1DB49C79000DD0A9 /* FMDatabaseQueue.h */,
-				360F205E1DB49C79000DD0A9 /* FMDatabaseQueue.m */,
-				360F205F1DB49C79000DD0A9 /* FMDB.h */,
-				360F20601DB49C79000DD0A9 /* FMResultSet.h */,
-				360F20611DB49C79000DD0A9 /* FMResultSet.m */,
-				360F20621DB49C79000DD0A9 /* Info.plist */,
-				360F20631DB49C79000DD0A9 /* LYLDataBaseManager.h */,
-				360F20641DB49C79000DD0A9 /* LYLDataBaseManager.m */,
+				360F206D1DB4A045000DD0A9 /* FMDatabase.h */,
+				360F206E1DB4A045000DD0A9 /* FMDatabase.m */,
+				360F206F1DB4A045000DD0A9 /* FMDatabaseAdditions.h */,
+				360F20701DB4A045000DD0A9 /* FMDatabaseAdditions.m */,
+				360F20711DB4A045000DD0A9 /* FMDatabasePool.h */,
+				360F20721DB4A045000DD0A9 /* FMDatabasePool.m */,
+				360F20731DB4A045000DD0A9 /* FMDatabaseQueue.h */,
+				360F20741DB4A045000DD0A9 /* FMDatabaseQueue.m */,
+				360F20751DB4A045000DD0A9 /* FMDB.h */,
+				360F20761DB4A045000DD0A9 /* FMResultSet.h */,
+				360F20771DB4A045000DD0A9 /* FMResultSet.m */,
+				360F20781DB4A045000DD0A9 /* Info.plist */,
+				360F20791DB4A045000DD0A9 /* LYLDataBaseManager.h */,
+				360F207A1DB4A045000DD0A9 /* LYLDataBaseManager.m */,
 			);
 			path = LYLDataBase;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				360F206A1DB49C79000DD0A9 /* Info.plist in Resources */,
+				360F20801DB4A045000DD0A9 /* Info.plist in Resources */,
 				360F20331DB49C67000DD0A9 /* LaunchScreen.storyboard in Resources */,
 				360F20301DB49C67000DD0A9 /* Assets.xcassets in Resources */,
 				360F202E1DB49C67000DD0A9 /* Main.storyboard in Resources */,
@@ -315,14 +315,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				360F202B1DB49C67000DD0A9 /* ViewController.m in Sources */,
-				360F20671DB49C79000DD0A9 /* FMDatabasePool.m in Sources */,
+				360F207D1DB4A045000DD0A9 /* FMDatabasePool.m in Sources */,
 				360F20281DB49C67000DD0A9 /* AppDelegate.m in Sources */,
-				360F20681DB49C79000DD0A9 /* FMDatabaseQueue.m in Sources */,
+				360F207E1DB4A045000DD0A9 /* FMDatabaseQueue.m in Sources */,
 				360F20251DB49C67000DD0A9 /* main.m in Sources */,
-				360F206B1DB49C79000DD0A9 /* LYLDataBaseManager.m in Sources */,
-				360F20651DB49C79000DD0A9 /* FMDatabase.m in Sources */,
-				360F20691DB49C79000DD0A9 /* FMResultSet.m in Sources */,
-				360F20661DB49C79000DD0A9 /* FMDatabaseAdditions.m in Sources */,
+				360F20811DB4A045000DD0A9 /* LYLDataBaseManager.m in Sources */,
+				360F207B1DB4A045000DD0A9 /* FMDatabase.m in Sources */,
+				360F207F1DB4A045000DD0A9 /* FMResultSet.m in Sources */,
+				360F207C1DB4A045000DD0A9 /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +548,7 @@
 				360F204F1DB49C67000DD0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		360F20501DB49C67000DD0A9 /* Build configuration list for PBXNativeTarget "LYLDataBaseManagerTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +557,7 @@
 				360F20521DB49C67000DD0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		360F20531DB49C67000DD0A9 /* Build configuration list for PBXNativeTarget "LYLDataBaseManagerUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +566,7 @@
 				360F20551DB49C67000DD0A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
