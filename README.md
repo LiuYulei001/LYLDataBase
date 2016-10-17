@@ -1,9 +1,27 @@
 # LYLDataBase
 本地化数据
 
+
+首先建议cocoapods导入此库：
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+
+platform :ios, ‘7.0’
+
+target ‘Your project name’ do
+
+  pod 'LYLDataBase'
+
+end
+
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
 第一：创建数据库
 
-[LYLDataBaseManager createDataBaseWithName:kTempDataBaseName andUserInfoField:kUserInfoField];
+    [LYLDataBaseManager createDataBaseWithName:kTempDataBaseName andUserInfoField:kUserInfoField];
 
 第二：增删改查一句话
 
