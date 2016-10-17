@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LYLDataBase"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "本地化数据－增 删 改 查"
 
   # This description is used to generate tags and improve search results.
@@ -75,7 +75,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/LiuYulei001/LYLDataBase.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/LiuYulei001/LYLDataBase.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
