@@ -256,7 +256,7 @@
             FMDatabase * db = [FMDatabase databaseWithPath:path];
             
             if ([db open]) {
-                BOOL suc = [db executeUpdate:[NSString stringWithFormat:@"DELETE FROM %@ WHERE user_id = %@",dataBaseName,userId]];
+                BOOL suc = [db executeUpdate:[NSString stringWithFormat:@"DELETE FROM %@ WHERE user_id = ?",dataBaseName],userId];
                 
                 [db close];
                 if (suc) {
