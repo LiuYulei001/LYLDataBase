@@ -12,7 +12,7 @@ platform :ios, ‘7.0’
 
 target ‘Your project name’ do
 
-  pod 'LYLDataBase', '~> 1.0.4'
+  pod 'LYLDataBase', '~> 1.0.5'
 
 end
 
